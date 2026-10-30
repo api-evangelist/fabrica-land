@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-fabrica-land is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://fabrica.land/
+Fabrica.land is a digital marketplace that enables users to buy, sell, and borrow against real-world land parcels tokenized on the blockchain. Leveraging NFTs and decentralized finance, the platform lists properties across the United States, providing detailed parcel data, location maps, and pricing. It aims to democratize access to land ownership and collateralization, bridging traditional real estate with crypto technology for a broader audience.
+
+**Areas:** Company · Real Estate · Blockchain · Marketplace · FinTech
+
+## fabrica-land on APIs.io
+
+Everything profiled for fabrica-land is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fabrica-land/](https://apis.io/providers/fabrica-land/)** — or go straight to one of the APIs or properties below.
+
+### APIs (14)
+
+- [Fabrica API](https://apis.io/apis/fabrica-land/fabrica-api/) — API for Fabrica.land providing access to land parcel data and marketplace operations.
+- [fabrica-land Change Of Ownership API](https://apis.io/apis/fabrica-land/fabrica-land-change-of-ownership-api/) — The Change-of-Ownership API from fabrica-land — 1 operation(s) for change-of-ownership.
+- [fabrica-land Document API](https://apis.io/apis/fabrica-land/fabrica-land-document-api/) — The Document API from fabrica-land — 1 operation(s) for document.
+- [fabrica-land Media API](https://apis.io/apis/fabrica-land/fabrica-land-media-api/) — The Media API from fabrica-land — 4 operation(s) for media.
+- [fabrica-land Metadata API](https://apis.io/apis/fabrica-land/fabrica-land-metadata-api/) — The Metadata API from fabrica-land — 1 operation(s) for metadata.
+- [fabrica-land Off Ramp API](https://apis.io/apis/fabrica-land/fabrica-land-off-ramp-api/) — The Off-Ramp API from fabrica-land — 3 operation(s) for off-ramp.
+- [fabrica-land On Ramp API](https://apis.io/apis/fabrica-land/fabrica-land-on-ramp-api/) — The On-Ramp API from fabrica-land — 7 operation(s) for on-ramp.
+- [fabrica-land Pool Lending API](https://apis.io/apis/fabrica-land/fabrica-land-pool-lending-api/) — The Pool Lending API from fabrica-land — 2 operation(s) for pool lending.
+- [fabrica-land Proof Of Ownership API](https://apis.io/apis/fabrica-land/fabrica-land-proof-of-ownership-api/) — The Proof-of-Ownership API from fabrica-land — 2 operation(s) for proof-of-ownership.
+- [fabrica-land Regrid API](https://apis.io/apis/fabrica-land/fabrica-land-regrid-api/) — The Regrid API from fabrica-land — 1 operation(s) for regrid.
+- [fabrica-land Syndication API](https://apis.io/apis/fabrica-land/fabrica-land-syndication-api/) — The Syndication API from fabrica-land — 1 operation(s) for syndication.
+- [fabrica-land Terrain Project API](https://apis.io/apis/fabrica-land/fabrica-land-terrain-project-api/) — The Terrain Project API from fabrica-land — 2 operation(s) for terrain project.
+- [fabrica-land Token API](https://apis.io/apis/fabrica-land/fabrica-land-token-api/) — The Token API from fabrica-land — 3 operation(s) for token.
+- [fabrica-land Valuation API](https://apis.io/apis/fabrica-land/fabrica-land-valuation-api/) — The Valuation API from fabrica-land — 2 operation(s) for valuation.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Fabrica Land Agentic Access](https://apis.io/agentic-access/fabrica-land/fabrica-land-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fabrica Land Context](https://apis.io/jsonld/fabrica-land/fabrica-land-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [fabrica-land API Rules](https://apis.io/rules/fabrica-land/fabrica-land-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fabrica Land Authentication](https://apis.io/security/fabrica-land/fabrica-land-authentication/)
+- [Fabrica Land Domain Security](https://apis.io/security/fabrica-land/fabrica-land-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fabrica.land/)
+- [Documentation](https://docs.fabrica.land/)
+- [Getting started](https://docs.fabrica.land/docs/getting-started)
+- [API reference](https://docs.fabrica.land/reference)
+- [Support](https://help.fabrica.land)
+- [Changelog](https://docs.fabrica.land/changelog)
+- [Blog](https://blog.fabrica.land)
+- [Terms of service](https://fabrica.land/terms-of-service)
+- [Privacy policy](https://fabrica.land/privacy-policy)
+- [GitHub](https://github.com/fabrica-land)
+
+## API Evangelist rating
+
+**Kin Score 47.6** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 49.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 21.1 |
+
+**Agent readiness 31.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fabrica-land/](https://apis.io/providers/fabrica-land/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for fabrica-land: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fabrica-land/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
